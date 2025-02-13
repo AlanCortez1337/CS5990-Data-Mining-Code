@@ -3,7 +3,7 @@
 # FILENAME: similarity.py
 # SPECIFICATION: Create a document-term matrix and find the two documents that 
 # FOR: CS 5990 (Advanced Data Mining) - Assignment #1
-# TIME SPENT: honestly probably like 10 hours
+# TIME SPENT: honestly probably like 15 hours
 # -----------------------------------------------------------*/
 
 #IMPORTANT NOTE: DO NOT USE ANY ADVANCED PYTHON LIBRARY TO COMPLETE THIS CODE SUCH AS numpy,
@@ -110,3 +110,6 @@ for first_doc_index in range(len(docTermMatrix)):
 # --> Add your Python code here
       
 print(f"The most similar documents are document {result_first_document_index} and document {result_second_document_index} with cosine similarity = {biggest_cosine_similarity}")
+
+# ANSWER
+# The most similar documents are document 346 and document 392 with cosine similarity = [[0.7990928]]
