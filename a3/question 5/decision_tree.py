@@ -28,7 +28,7 @@ def convertData(data_set):
         if instance[0] == 'Yes':
             new_instance_X.append(1)
         elif instance[0] == 'No':
-            new_instance_X.append(1)
+            new_instance_X.append(0)
         
         if instance[1] == 'Single':
             new_instance_X.append(1)
