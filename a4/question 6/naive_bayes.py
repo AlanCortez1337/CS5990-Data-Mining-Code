@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------
 # AUTHOR: Alan Cortez
 # FILENAME: naive_bayes.py
-# SPECIFICATION: 
+# SPECIFICATION: Using Gaussian NB lets test various different hyper parameters to see which one gives us the best accuracy
 # FOR: CS 5990- Assignment #4
-# TIME SPENT: 
+# TIME SPENT: This problem probably took an hour-ish
 #-----------------------------------------------------------*/
 
 #importing some Python libraries
